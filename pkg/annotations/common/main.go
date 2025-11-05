@@ -63,6 +63,8 @@ var DefaultValues = map[string]string{
 	"client-crt-optional":    "false",
 	"tls-alpn":               "h2,http/1.1",
 	"quic-alt-svc-max-age":   "60",
+	"generate-certificates":  "false",
+	"ca-sign-file":           "",
 }
 
 // Returns the first annotation value in the set of maps of annotations along with the indice of which map in argument provided the value.
